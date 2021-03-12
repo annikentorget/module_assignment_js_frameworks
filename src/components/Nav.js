@@ -13,15 +13,15 @@ function Nav() {
   }
 
   return (
-    <nav>
-      <Link to='/'>Home</Link>
+    <nav className='navbar'>
+      <Link className='navbar__link' to='/'>Home</Link>
       {auth ? (
         <>
-          | <Link to='/products'>Products</Link> |{' '}
-          <button onClick={logout}>Log out</button>
+          <Link className='navbar__link' to='/products'>Products</Link>{' '}
+          <button className='navbar__button' onClick={logout}>Log out</button>
         </>
       ) : (
-        <Link to='/login'>Login</Link>
+        <Link className='navbar__link' to='/login'>Login</Link>
       )}
     </nav>
   );

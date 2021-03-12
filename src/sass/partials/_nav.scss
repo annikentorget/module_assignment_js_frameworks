@@ -1,0 +1,21 @@
+.navbar {
+    background-color: rgba(77, 202, 19, 0.979);
+    padding: 10px;
+    display: flex;
+    
+
+    &__link {
+        text-decoration: none;
+        color: black;
+        padding: 10px;
+    }
+
+    &__button {
+        border: none;
+        color: indianred;
+        background-color: indigo;
+        padding: 10px;
+    }
+}
+
+

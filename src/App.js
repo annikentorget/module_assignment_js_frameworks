@@ -6,6 +6,8 @@ import Nav from './components/Nav';
 import HomePage from './pages/HomePage';
 import Login from './pages/Login';
 import Products from './pages/Products';
+import EditProduct from './pages/EditProduct';
+import AddProduct from './pages/AddProducts'
 
 const App = () => {
   return (
@@ -16,6 +18,8 @@ const App = () => {
           <Route path='/' exact component={HomePage} />
           <Route path='/login' component={Login} />
           <Route path='/products' component={Products} />
+          <Route path='/edit/:id' component={EditProduct} />
+          <Route path='/add' component={AddProduct} />
         </Switch>
       </Router>
     </AuthProvider>

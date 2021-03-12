@@ -1,0 +1,32 @@
+.product {
+    width: 100;
+    max-width: 500px;
+    background-color: blanchedalmond;
+    margin: auto;
+
+    &__heading {
+        size: 10px;
+    }
+
+    &__title {
+        color: black;
+        text-decoration: none;
+        text-align: center;
+        padding: 10px;
+    }
+
+    &__image {
+        width: 100%;
+        padding: 10px;
+    }
+
+    &__price {
+        color: black;
+        padding-left: 10px;
+    }
+
+    &__description {
+        color: black;
+        padding: 10px;
+    }
+}
